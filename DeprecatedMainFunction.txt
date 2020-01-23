@@ -1,0 +1,38 @@
+ // private void deprecatedMainFunction()
+  // {
+  //   System.out.println("Hello world!");
+
+  //   Stack stack = new Stack(10); stack.push(2); stack.push(3);
+  //   System.out.println(stack.pop()); System.out.println(stack.peek());
+  //   System.out.println(stack.isEmpty()); System.out.println(stack.pop());
+  //   System.out.println(stack.isEmpty());
+
+  //   GenericStack genericStack = new GenericStack<Character>(10);
+  //   genericStack.push('T'); System.out.println(genericStack.pop());
+  //   System.out.println(genericStack.pop());
+
+
+  //   System.out.println(reverseString("Tauqeer"));
+  //   System.out.println(sameString("Tauqeer"));
+
+  //   GenericQueue queue = new GenericQueue<Integer>(3);
+  //   queue.push(2);
+  //   queue.push(3);
+  //   queue.push(4);
+  //   System.out.println(queue.pop());
+  //   System.out.println(queue.pop());
+  //   System.out.println(queue.pop());
+  //   queue.push(2);
+  //   System.out.println(queue.pop());
+  //   queue.push(3);
+  //   queue.push(4);
+  //   System.out.println(queue.pop());
+  //   System.out.println(queue.pop());
+  // }
+
+
+
+  // Node nodeA = new Node(1);
+  // Node nodeB = new Node(2);
+  // nodeA.nextNode = nodeB;
+  // System.out.println("LinkedList Length: " + getLinkedListLength(nodeA));

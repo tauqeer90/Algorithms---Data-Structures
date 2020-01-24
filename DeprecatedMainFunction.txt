@@ -31,7 +31,7 @@
   // }
 
 
-
+//NODE
   // Node nodeA = new Node(1);
   // Node nodeB = new Node(2);
   // nodeA.nextNode = nodeB;
@@ -48,9 +48,27 @@
     linkedList.printFirstToLastNodes();
     linkedList.insertLastNode(4);
     linkedList.printFirstToLastNodes();
-
     Node nodeA = new Node(10);
     Node nodeB = new Node(20);
     nodeA.nextNode = nodeB;
     linkedList.insertFirstNode(nodeA);
     linkedList.printFirstToLastNodes();
+
+
+
+// DOUBLE LINKEDLIST
+    DoublyLinkedList linkedList = new DoublyLinkedList();
+    linkedList.insertFirstNode(3);
+    linkedList.insertFirstNode(2);
+    linkedList.insertFirstNode(1);
+    linkedList.insertLastNode(4);
+    linkedList.insertFirstNode(0);
+    linkedList.insertAfter(0, 15);
+    linkedList.printFirstToLastNodes();
+    linkedList.printlastToFirst();
+    linkedList.insertAfter(2, 20);
+    linkedList.insertAfter(4, 40);
+    linkedList.printFirstToLastNodes();
+    linkedList.insertAfter(6, 60);
+    linkedList.printFirstToLastNodes();
+    linkedList.printlastToFirst();

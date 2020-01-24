@@ -2,6 +2,7 @@ public class Node
 {
   int data;
   Node nextNode = null;
+  Node previousNode = null;
 
   public Node(int data)
   {

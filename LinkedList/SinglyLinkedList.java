@@ -9,6 +9,7 @@ public class SinglyLinkedList {
       firstNode = new Node(data);
       return;
     }
+    
     Node tempNode = new Node(data);
     tempNode.nextNode = firstNode;
     firstNode = tempNode;

@@ -2,21 +2,14 @@ class Main {
   public static void main(String[] args) {
     System.out.println("Hello world!");
 
-    SinglyLinkedList linkedList = new SinglyLinkedList();
-    linkedList.insertFirstNode(3);
-    linkedList.insertFirstNode(2);
-    linkedList.insertFirstNode(1);
-    linkedList.printFirstToLastNodes();
-    linkedList.deleteFirstNode();
-    linkedList.printFirstToLastNodes();
-    linkedList.insertLastNode(4);
-    linkedList.printFirstToLastNodes();
-
-    Node nodeA = new Node(10);
-    Node nodeB = new Node(20);
-    nodeA.nextNode = nodeB;
-    linkedList.insertFirstNode(nodeA);
-    linkedList.printFirstToLastNodes();
+    // CircularLinkedList linkedList = new CircularLinkedList();
+    // linkedList.insertFirstNode(3);
+    // linkedList.insertFirstNode(2);
+    // linkedList.insertFirstNode(1);
+    // linkedList.insertLastNode(4);
+    // linkedList.insertFirstNode(0);
+    // linkedList.deleteFirstNode();
+    // linkedList.printFirstToLastNodes();
   }
 
   private static int getLinkedListLength(Node node) {
